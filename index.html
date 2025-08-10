@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Shortcut icon -->
+  <link rel="shortcut icon" href="assets/img/logo-csgadol-shortcut.png">
+  <title>CS GADOL: Recambios para automóvil</title>
+  <!-- CSS -->
+  <link rel="stylesheet" href="styles/styles.css">
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Google fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <!-- Animate.css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+<body>
+    <!-- Header with social links -->
+    <header id="csg-header" class="navbar d-flex justify-content-center align-items-center">
+        <div class="container-fluid d-flex justify-content-center align-content-center">
+            <ul class="navbar-nav d-flex flex-row justify-content-center align-items-center">
+                <li class="ms-4">
+                    <a href="tel:+34600111222" class="link">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"/>
+                        </svg>
+                        <i class="d-none d-lg-inline">+34 960 03 44 52</i>
+                    </a>
+                </li>
+                <li class="ms-4">
+                    <a href="mailto:info@csgadol.com" class="link">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
+                            <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z"/>
+                        </svg>
+                        <i class="d-none d-lg-inline">info@csgadol.com</i>
+                    </a>
+                </li>
+                <li class="ms-4">
+                    <a href="https://maps.app.goo.gl/xaCp1ubpQTG16gQFA" class="link" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                            <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"/>
+                        </svg>
+                        <i class="d-none d-lg-inline">Ubicación</i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <!-- Navbar visible in sm-md -->
+    <nav class="navbar navbar-expand-md d-md-none csg-text-light">
+        <!-- Navbar container -->
+        <div class="container w-100">
+            <!-- Navbar logo -->
+            <a href="index.html"><img src="assets/img/logo-csgadol-shortcut.png" alt="CS GADOL NAV LOGO" width="70px"></a>
+            <!-- Collapse button -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse text-center fs-5" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item m-1">
+                        <a class="nav-link csg-active csg-text-light" aria-current="page" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item m-1">
+                        <a class="nav-link csg-text-light" href="#">Productos</a>
+                    </li>
+                    <li class="nav-item m-1">
+                        <a class="nav-link csg-text-light" href="#">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar visible in md -->
+    <nav class="navbar d-none d-md-flex d-lg-none csg-text-light">
+        <!-- Navbar container -->
+        <div class="container-fluid w-75">
+            <!-- Navbar logo -->
+            <a href="index.html"><img src="assets/img/logo-csgadol-nav.png" alt="CS GADOL NAV LOGO" width="170px"></a>
+            <!-- Navbar links -->
+            <ul class="navbar-nav d-flex flex-row">
+                <li class="nav-item m-3">
+                    <a class="nav-link csg-active csg-text-light" aria-current="page" href="#">Inicio</a>
+                </li>
+                <li class="nav-item m-3">
+                    <a class="nav-link csg-text-light" href="#">Productos</a>
+                </li>
+                <li class="nav-item m-3">
+                    <a class="nav-link csg-text-light" href="#">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Navbar visible in lg-xl-xxl -->
+    <nav class="navbar d-none d-lg-flex csg-text-light">
+        <!-- Navbar container -->
+        <div class="container-fluid w-75">
+            <!-- Navbar logo -->
+            <a href="index.html"><img src="assets/img/logo-csgadol-nav.png" alt="CS GADOL NAV LOGO" width="170px"></a>
+             <!-- Navbar links -->
+            <ul class="navbar-nav d-flex flex-row">
+                <li class="nav-item m-3">
+                    <a class="nav-link csg-active csg-text-light" aria-current="page" href="#">Inicio</a>
+                 </li>
+                <li class="nav-item m-3">
+                     <a class="nav-link csg-text-light" href="#">Productos</a>
+                </li>
+                <li class="nav-item m-3">
+                    <a class="nav-link csg-text-light" href="#">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Main grouping sections (carousel + services) -->
+    <main>
+        <!-- Carousel -->
+        <section id="csg-carousel" class="">
+            <!-- Caroussel -->
+            <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+                <!-- Indicators/dots -->
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+                <!-- The slideshow/carousel -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                    <img src="assets/img/img-2.jpg" alt="Imagen 1" class="d-block w-100 carousel-img">
+                    </div>
+                    <div class="carousel-item">
+                    <img src="assets/img/img-3.png" alt="Imagen 2" class="d-block w-100 carousel-img">
+                    </div>
+                    <div class="carousel-item">
+                    <img src="assets/img/img-1.png" alt="Imagen 3" class="d-block w-100 carousel-img">
+                    </div>
+                </div>
+                <!-- Left and right controls/icons -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+        </section>
+        <!-- Arrow to services -->
+    <section id="csg-arrow" class="justify-content-center align-items-center w-100 only-2k">
+        <div class="d-flex justify-content-center align-items-center">
+            <a href="#csg-services" class="csg-text-dark">
+                <svg id="arrow" xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="currentColor" class="bi bi-caret-down" viewBox="0 0 16 16">
+                    <path class="animate__animated animate__bounceIn" d="M3.204 5h9.592L8 10.481zm-.753.659 4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659"/>
+                </svg>
+            </a>
+        </div>
+    </section>
+        <!-- Services -->
+        <section id="csg-services" class="">
+            <div class="container py-5">
+                <div class="row g-5">
+                    <!-- Tarjeta 1 -->
+                    <div class="col-md-4 animate__animated hidden">
+                        <div class="card shadow-lg border-0 h-100 card-hover">
+                            <img src="assets/img/car-sound.png" class="card-img-top" alt="Imagen servicio 3">
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">Sonido para coche</h5>
+                                <p class="card-text text-muted">
+                                Transforma tu experiencia al volante con sistemas de audio diseñados para ofrecer calidad y potencia.
+                                </p>
+                                <a href="#" class="btn btn-primary w-100 csg-text-dark">Más información</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Tarjeta 2 -->
+                    <div class="col-md-4 animate__animated hidden">
+                        <div class="card shadow-lg border-0 h-100 card-hover">
+                            <img src="assets/img/professional-sound.png" class="card-img-top" alt="Imagen servicio 3">
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">Sonido profesional</h5>
+                                <p class="card-text text-muted">
+                                Equipos de alto rendimiento pensados para eventos, estudios o instalaciones exigentes.
+                                </p>
+                                <a href="#" class="btn btn-primary w-100 csg-text-dark">Más información</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Tarjeta 3 -->
+                    <div class="col-md-4 animate__animated hidden">
+                        <div class="card shadow-lg border-0 h-100 card-hover">
+                            <img src="assets/img/car-parts.jpg" class="card-img-top" alt="Imagen servicio 3">
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">Recambios para coche</h5>
+                                <p class="card-text text-muted">
+                                Encuentra las piezas que tu vehículo necesita. Soluciones confiables para mantener tu coche en óptimas condiciones.
+                                </p>
+                                <a href="#" class="btn btn-primary w-100 csg-text-dark">Más información</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- Footer -->
+    <footer id="csg-footer" class="csg-text-dark pt-5 pb-4 text-center">
+    <div class="container">
+        <div class="row">
+        <!-- Logo and description -->
+        <div class="col-md-4 mb-4">
+            <h5 class="fw-bold">CS GADOL S.L</h5>
+            <p class="">Especialistas en recambios y sistemas de sonido profesionales y para coche. Calidad, estilo y rendimiento en cada componente.</p>
+        </div>
+        <!-- Links -->
+        <div class="col-md-4 mb-4">
+            <h5 class="fw-bold">Enlaces</h5>
+            <ul class="list-unstyled">
+            <li><a href="#csg-services" class="csg-text-dark text-decoration-none">Servicios</a></li>
+            <li><a href="#Productos" class="csg-text-dark text-decoration-none">Sobre nosotros</a></li>
+            <li><a href="#contacto" class="csg-text-dark text-decoration-none">Contacto</a></li>
+            </ul>
+        </div>
+        <!-- Contact -->
+        <div class="col-md-4 mb-4 d-flex flex-column list">
+            <h5 class="fw-bold">Contacto</h5>
+            <ul class="d-flex flex-column list-unstyled">
+            <a href="" class="csg-text-dark text-decoration-none">info@csgadol.com</a>
+            <a href="" class="csg-text-dark text-decoration-none">+34 960 034 452</a>
+            <a href="" class="csg-text-dark text-decoration-none">Maestro Serrano, 29 Alboraya, 46120</a>
+            </ul>
+        </div>
+      </div>
+    </div>
+    <div class="text-center  csg-text-dark text-decoration-none">
+        <hr>
+      &copy; 2025 CS Gadol. Todos los derechos reservados.
+    </div>
+  </div>
+</footer>
+</body>
+<!-- Intersection Observer for fade-in effect -->
+<script>
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.remove('hidden');
+        entry.target.classList.add('animate__fadeIn');
+      }
+    });
+  });
+  document.querySelectorAll('.hidden').forEach(el => observer.observe(el));
+</script>
+</html>
